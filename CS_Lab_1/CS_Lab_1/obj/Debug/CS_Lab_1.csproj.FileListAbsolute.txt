@@ -1,0 +1,7 @@
+C:\ITAcademy\C#\CS_Lab_1\CS_Lab_1\bin\Debug\CS_Lab_1.exe.config
+C:\ITAcademy\C#\CS_Lab_1\CS_Lab_1\bin\Debug\CS_Lab_1.exe
+C:\ITAcademy\C#\CS_Lab_1\CS_Lab_1\bin\Debug\CS_Lab_1.pdb
+C:\ITAcademy\C#\CS_Lab_1\CS_Lab_1\obj\Debug\CS_Lab_1.csprojAssemblyReference.cache
+C:\ITAcademy\C#\CS_Lab_1\CS_Lab_1\obj\Debug\CS_Lab_1.csproj.CoreCompileInputs.cache
+C:\ITAcademy\C#\CS_Lab_1\CS_Lab_1\obj\Debug\CS_Lab_1.exe
+C:\ITAcademy\C#\CS_Lab_1\CS_Lab_1\obj\Debug\CS_Lab_1.pdb
