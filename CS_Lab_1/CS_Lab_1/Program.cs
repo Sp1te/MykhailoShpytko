@@ -189,9 +189,16 @@ namespace CS_Lab_1
             int start = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Type final possision arr");
             int final = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Even summ = {Even_summ(N, start, final)}");
-            Console.WriteLine($"Odd summ = {Odd_summ(N, start, final)}");
 
+            if (start < 0 || final > Get_arr(N).Length || final - start < 0)
+            {
+                Console.WriteLine("Number is not current");
+            }
+            else
+            {
+                Console.WriteLine($"Even summ = {Even_summ(N, start, final)}");
+                Console.WriteLine($"Odd summ = {Odd_summ(N, start, final)}");
+            }
             Console.ReadKey();
         }
 
