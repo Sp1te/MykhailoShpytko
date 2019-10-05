@@ -157,20 +157,21 @@ namespace CS_Lab_1
         static void Main(string[] args)
         {
             int N;
+
             while(true){
                 try
                 {
-                    Console.WriteLine("Type your number!");
+                    Console.WriteLine("Type your number");
                     N = Convert.ToInt32(Console.ReadLine());
                     break;
                 }
                 catch (OverflowException)
                 {
-                     Console.WriteLine("");
+                     Console.WriteLine("Your number is too big");
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine("Pleas type number");
+                    Console.WriteLine("Type a integer number");
                 }
             }
    
