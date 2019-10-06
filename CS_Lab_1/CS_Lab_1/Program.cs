@@ -89,7 +89,7 @@ namespace CS_Lab_1
                   
         }
 
-        static int Even_summ(int N)
+        static int Even_summ_for(int N)
         {
             int res = 0;
             for(int i = 0; i < Get_arr(N).Length; i++)
@@ -101,6 +101,38 @@ namespace CS_Lab_1
             }
             return res;
         }
+
+        static int Even_summ_while(int N)
+        {
+            int i = 0;
+            int res = 0;
+            while (i < Get_arr(N).Length)
+            {
+                if (Get_arr(N)[i] % 2 == 0)
+                {
+                    res += Get_arr(N)[i];
+                }
+                i++;
+            }
+            return res;
+        }
+
+        static int Even_summ_dowhile(int N)
+        {
+            int i = 0;
+            int res = 0;
+            do
+            {
+                if (Get_arr(N)[i] % 2 == 0)
+                {
+                    res += Get_arr(N)[i];
+                }
+                i++;
+            } while (i < Get_arr(N).Length);
+            return res;
+        }
+
+
 
         static int Odd_summ(int N)
         {
