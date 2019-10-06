@@ -147,7 +147,7 @@ namespace CS_Lab_1
             return res;
         }
 
-        static int Even_summ(int N, int start, int final)
+        static int Even_summ_for(int N, int start, int final)
         {
             
             int res = 0;
@@ -212,7 +212,7 @@ namespace CS_Lab_1
             Console.WriteLine($"Size = {Size(N)}");
             Console.WriteLine($"Arithmetic mean = {Arithmetic_mean(N)}");
             Console.WriteLine($"Geometrical mean = {Geometrical_mean(N)}");
-            Console.WriteLine($"Even summ = {Even_summ(N)}");
+            Console.WriteLine($"Even summ = {Even_summ_for(N)}");
             Console.WriteLine($"Odd summ = {Odd_summ(N)}");
             Print_factorial(N);
          
@@ -228,7 +228,7 @@ namespace CS_Lab_1
             }
             else
             {
-                Console.WriteLine($"Even summ = {Even_summ(N, start, final)}");
+                Console.WriteLine($"Even summ = {Even_summ_for(N, start, final)}");
                 Console.WriteLine($"Odd summ = {Odd_summ(N, start, final)}");
             }
             Console.ReadKey();
